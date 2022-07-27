@@ -1,15 +1,19 @@
 *{
     color:aliceblue;
 }
+
 p{
     color:blue;
 }
+
 #title-1{
 color: black;
 }
+
 .bg-yellow{
     background-color: yellow;
 }
+
 [href="https://www.yahoo.com"]{
     background-color: brown;
 }
@@ -35,6 +39,10 @@ color: black;
 
 a , p , h1{
     background-color: rebeccapurple;
+}
+
+main + p{
+    color:blueviolet;
 }
 h1 + p {
     background-color: aliceblue;
