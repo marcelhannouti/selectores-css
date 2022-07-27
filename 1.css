@@ -1,0 +1,44 @@
+*{
+    color:aliceblue;
+}
+p{
+    color:blue;
+}
+#title-1{
+color: black;
+}
+.bg-yellow{
+    background-color: yellow;
+}
+[href="https://www.yahoo.com"]{
+    background-color: brown;
+}
+
+[class^= "title"]{
+    color: bisque;
+}
+
+[href$=".com"]{
+    background-color: brown;
+}
+
+[class|= "title"]{
+    color: rebeccapurple;
+}
+
+[href*="127"]{
+    background-color: brown;
+}
+[href^=".http"]{
+    background-color: royalblue;
+}
+
+a , p , h1{
+    background-color: rebeccapurple;
+}
+h1 + p {
+    background-color: aliceblue;
+}
+h1 ~ a {
+    background-color: azure;
+}
